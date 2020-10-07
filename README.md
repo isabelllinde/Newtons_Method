@@ -6,7 +6,7 @@ The C# program uses Newton's method to establish a relationship between y<sub>t<
 2. y<sub>t</sub> = x<sub>1</sub> / (1+x<sub>2</sub>e<sup>x<sub>3</sub>t</sup>)
 3. y<sub>t</sub> = x<sub>1</sub> + x<sub>2</sub>t + x<sub>3</sub>t<sup>2</sup> + x<sub>4</sub>t<sup>3</sup>
 
-The program also implements the greedy approach and the fixed number of clusters approach and applied them for Euclidean distance, Manhattan distance and Mahalanobis distance across the data in files cluster2.csv and cluster4.csv.
+The program also implements two clustering methods, the greedy approach and the fixed number of clusters approach, and applies them for Euclidean distance, Manhattan distance and Mahalanobis distance across the data in files cluster2.csv and cluster4.csv. The methods allocate the appropriate number of clusters for each dataset. 
 
 # Contributors
 Isabell Linde<br/>
